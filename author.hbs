@@ -27,15 +27,26 @@
         <div class="author-meta">
             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-            <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
         </div>
     </section>
 {{/author}}
 
 {{!-- The main content area on the homepage --}}
 <main class="content" role="main">
+        <p>I pride myself on being able to communicate clearly and effectively, using self-deprecating humor, wild analogies, and common Portuguese sayings in order to get a point across.</p>
+        <p>Over the past few years I've done quite a few <a href="/mediatimeline">talks and presentations</a>, ranging from academic talks, keynotes at industry events, or simple panels on Information Security. If you're interested in having me speak at your next event, feel free to reach out to me on <a href="https://twitter.com/diogomonica">Twitter</a>, or Gmail me at diogo.monica.</p>
 
-    {{!-- The tag below includes the post loop - partials/loop.hbs --}}
-    {{> "loop"}}
+        <h3 class="align-center">Bio</h3>
+        <h5>140 Character Bio</h5>
+        <p>Diogo is the security lead at Docker, led the Platform Security team at Square, has a PhD in Computer Science, and serves on the board of advisors of several security startups.</p>
+        <h5>Small Bio</h5>
+        <p>Diogo Mónica is the security lead at Docker, an open platform for building, shipping and running distributed applications. He was an early employee at Square where he led the platform security team, has a BSc, MSc and PhD degrees in Computer Science, serves on the board of advisors of several security startups, and is a long-time IEEE Volunteer.</p>
+
+        <h3 class="align-center">Pictures</h3>
+        <a href="/images/speakerkit/Diogo_Monica_Black_and_White_Round.png"><img src="/images/speakerkit/Diogo_Monica_Black_and_White_Round.png" width="150"/></a>
+        <a href="/images/speakerkit/Diogo_Monica_Black_and_White_Square.png"><img src="/images/speakerkit/Diogo_Monica_Black_and_White_Square.png" width="150"/></a>
+        <a href="/images/speakerkit/Diogo_Monica_Docker_hoodie_Round.jpg"><img src="/images/speakerkit/Diogo_Monica_Docker_hoodie_Round.jpg" width="150"/></a>
+        <a href="/images/speakerkit/Diogo_Monica_Docker_hoodie_Square.jpg"><img src="/images/speakerkit/Diogo_Monica_Docker_hoodie_Square.jpg" width="150"/></a>
+        <a href="/images/speakerkit/Diogo_Monica_DockerCon.jpg"><img src="/images/speakerkit/Diogo_Monica_DockerCon.jpg" width="150"/></a>
 
 </main>
