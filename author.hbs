@@ -1,41 +1,20 @@
 {{!< default}}
 {{!-- The main content area on the homepage --}}
-    <header class="main-header author-head {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
-        <nav class="main-nav overlay clearfix">
-        </nav>
-    </header>
-
-    <section class="author-profile inner">
-        <figure class="author-image">
-            <a href="https://diogomonica.com/">
-                 <div class="img" style="background-image: url('/content/images/2016/08/Diogo_Monica_Docker_hoodie_Round.jpg')"><span class="hidden">Diogo Mónica's Picture</span></div>
-            </a>
-        </figure>
-         <a href="https://diogomonica.com/media-timeline">
-            <h1 class="author-title">Diogo Mónica</h1>
-        </a>
-         <h2 class="author-bio">Security lead @Docker, ex-@Square, PhD in CS</h2>
-    </section>
-
 <main class="content" role="main">
-
     <article class="post">
         <section class="post-content">
-            <p>I pride myself on being able to communicate clearly and effectively, using self-deprecating humor, wild analogies, and common Portuguese sayings in order to get a point across.</p>
-
-<p>Over the past few years I've done quite a few <a href="/media-timeline/">talks and presentations</a>, ranging from academic talks, keynotes at industry events, or simple panels on Information Security. If you're interested in having me speak at your next event, feel free to reach out to me on <a href="https://twitter.com/diogomonica">Twitter</a>, or Gmail me at diogo.monica.</p>
+<p>I've done quite a few <a href="/media-timeline/">talks and presentations</a>, ranging from academic talks, keynotes at industry events, or simple panels on Information Security. If you're interested in having me speak at your next event, feel free to reach out to me on <a href="https://twitter.com/diogomonica">Twitter</a>, or Gmail me at diogo.monica.</p>
 
 <h3 id="bio">Bio</h3>
 
-<h5 id="140characterbio">140 Character Bio</h5>
+<h4 id="140characterbio">140 Character Bio</h4>
 
 <p>Diogo is the security lead at Docker, led the Platform Security team at Square, has a PhD in Computer Science, and serves on the board of advisors of several security startups.  </p>
 
-<h5 id="smallbio">Small Bio</h5>
-
+<h4 id="smallbio">Small Bio</h4>
     <p>Diogo Mónica is the security lead at Docker, an open platform for building, shipping and running distributed applications. He was an early employee at Square where he led the platform security team, has a BSc, MSc and PhD degrees in Computer Science, serves on the board of advisors of several security startups, and is a long-time IEEE Volunteer.</p>
 
-    <h5 id="pictures">Pictures</h5>
+    <h4 id="pictures">Pictures</h4>
         <div id="image-table">
             <table>
                 <tr>
@@ -58,4 +37,6 @@
         <p><a href="{{asset "Diogo_Monica_DockerCon.jpg"}}"><img src="{{asset "Diogo_Monica_DockerCon.jpg"}}" width="150"/></a></p>
         </section>
     </article>
+    <h3 id="timeline">Media Timeline</h3>
+    <cloudstitch-handlebars user="diogomonica" app="elegant-resume-timeline"></cloudstitch-handlebars>
 </main>
